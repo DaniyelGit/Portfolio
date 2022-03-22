@@ -1,0 +1,35 @@
+.works {
+    padding: 100px 0;
+    background-color: #8546d9;
+}
+
+.works__title {
+    text-align: center;
+}
+
+.works__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.works__item {
+    width: 300px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.works__item_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #c9c0c0;
+    margin-bottom: 10px;
+}
+
+.works__item_content {
+    padding: 5px 10px 30px;
+}
