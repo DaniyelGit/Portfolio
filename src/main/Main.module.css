@@ -1,0 +1,22 @@
+.main {
+    background-color: #e7477b;
+}
+
+.main__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.main__content_title {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+.main__photo {
+    width: 400px;
+    height: 400px;
+    background-color: #3b3737;
+}

@@ -1,0 +1,25 @@
+.header {
+    background-color: #39bdbd;
+}
+
+.header__inner {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list_item + .menu__list_item {
+    margin-left: 30px;
+}
+
+.menu__list_link {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000;
+}
