@@ -1,0 +1,36 @@
+.skills {
+    padding: 100px 0;
+    background-color: #a5e88a;
+}
+
+.skills__title {
+    text-align: center;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.skills__item {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #c9c0c0;
+    margin-bottom: 30px;
+}
+
+.skills__item_image {
+    margin: 0 auto 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #3b3737;
+}
+
+.skills__item_title {
+    margin-bottom: 20px;
+}

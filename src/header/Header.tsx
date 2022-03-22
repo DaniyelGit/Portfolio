@@ -16,8 +16,7 @@ export const Header = () => {
                             </li>
                             <li className={s.menu__list_item}>
                                 <a className={s.menu__list_link} href="#">
-                                    Скиллы
-
+                                    Навыки
                                 </a>
                             </li>
                             <li className={s.menu__list_item}>
