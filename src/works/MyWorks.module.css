@@ -18,7 +18,7 @@
 .works__item {
     width: 300px;
     border: 1px solid #000;
-    margin-bottom: 30px;
+    margin: 0 20px 30px;
 }
 
 .works__item_images {
@@ -32,4 +32,16 @@
 
 .works__item_content {
     padding: 5px 10px 30px;
+}
+
+
+@media (max-width: 1050px) {
+    .works__items {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 900px) {
+    .works__items {
+        justify-content: space-around;
+    }
 }

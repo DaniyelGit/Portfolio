@@ -35,3 +35,22 @@
     padding: 20px;
     margin-bottom: 30px;
 }
+
+
+
+@media (max-width: 600px) {
+    .contacts__form {
+        padding: 30px 40px 40px;
+    }
+}
+@media (max-width: 500px) {
+    .contacts__form {
+        padding: 30px 20px 40px;
+    }
+    .contacts__input {
+        padding: 5px;
+    }
+    .contacts__textArea {
+        padding: 5px;
+    }
+}

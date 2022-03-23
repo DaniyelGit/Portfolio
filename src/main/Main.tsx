@@ -14,7 +14,10 @@ export const Main = () => {
                             Всем привет!
                         </span>
                         <h1 className={s.main__content_title}>
-                            Меня зовут Даниель Ткачук
+                            Меня зовут&nbsp;
+                            <span className={s.main__content_titleName}>
+                                 Даниель Ткачук
+                            </span>
                         </h1>
                         <p className={s.main__content_text}>
                             Я front-end разработчик

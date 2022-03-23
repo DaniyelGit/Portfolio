@@ -23,3 +23,10 @@
     font-weight: 400;
     color: #000;
 }
+
+@media (max-width: 900px) {
+    .header__inner {
+        justify-content: center;
+    }
+}
+
