@@ -1,0 +1,12 @@
+.freelance {
+    padding: 100px 0;
+    background-color: #e7477b;
+}
+
+.freelance__block {
+    text-align: center;
+}
+
+.freelance__block_btn {
+    margin-top: 50px;
+}
